@@ -53,7 +53,10 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
-  		}
+  		},
+		  backgroundImage: {
+			Hero: "url('assets/images/classroom.png')",
+		  },
   	}
   },
   plugins: [require("tailwindcss-animate")],
